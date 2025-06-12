@@ -130,7 +130,6 @@ section a {
     font-weight: bold;
     padding: 0.5%;
     background-color: #f2e9e425;
-
 }
 
 section div {
@@ -141,7 +140,7 @@ section div {
     margin-bottom: 1%;
     margin-left: 15%;
     float: left;
-    background-color: white;
+    background-color:white;
     border-radius: 10px;
     border-bottom: 2px solid rgb(172, 172, 172);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -195,11 +194,6 @@ section img {
     margin-left: 10%;
     margin-right: 0%;
     padding: 1%;
-}
-.opiniones div p:last-child{
-    font-weight: bold;
-    text-align: left;
-    margin-top: 2%;
 }
 
 div p {
@@ -274,4 +268,32 @@ footer div P {
     padding: 2%;
     clear: both;
     color: #F2E9E4;
+}
+
+/*ACTIVIDAD 7*/
+.opiniones div p:last-child {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2%;
+}
+
+section a:hover {
+    background-color: #ffffffe5;
+    color: #22223b;
+}
+
+header nav a:hover {
+    color: #bec0ff;
+}
+
+main section div:hover {
+    margin-left: 13%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+    width: 34%;
+    background-color: #ffffff;
+    border-bottom: none;
+    box-shadow: 0px 4px 5px rgba(92, 92, 92, 0.6);
+
 }
