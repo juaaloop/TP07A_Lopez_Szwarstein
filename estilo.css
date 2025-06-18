@@ -140,7 +140,7 @@ section div {
     margin-bottom: 1%;
     margin-left: 15%;
     float: left;
-    background-color:white;
+    background-color: white;
     border-radius: 10px;
     border-bottom: 2px solid rgb(172, 172, 172);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -148,7 +148,7 @@ section div {
 
 section div p {
     width: 100%;
-    margin: 0%
+    margin: 0%;
 }
 
 section img {
@@ -185,6 +185,10 @@ section img {
 
 .beneficios h4 {
     text-align: center;
+}
+
+.beneficios p {
+    display: none;
 }
 
 .opiniones div {
@@ -280,9 +284,10 @@ footer div P {
 section a:hover {
     background-color: #ffffffe5;
     color: #22223b;
+
 }
 
-header nav a:hover {
+header nav a:hover, footer a:hover {
     color: #bec0ff;
 }
 
@@ -290,10 +295,42 @@ main section div:hover {
     margin-left: 13%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-
     width: 34%;
+    transition: padding 0.75s ease, width 0.5s ease;
     background-color: #ffffff;
     border-bottom: none;
-    box-shadow: 0px 4px 5px rgba(92, 92, 92, 0.6);
+    box-shadow: 0 0 15px #fcfcfce5;
+}
 
+.beneficios div:hover {
+    width: 13%;
+    margin-left: 13.75%;
+    margin-right: 0%;
+    padding: 1%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: padding 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.beneficios div:hover p {
+    display: block;
+    opacity: 1;
+
+}
+
+.opiniones div:hover {
+    width: 18%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-bottom: 1%;
+    border-bottom: 2px solid rgb(172, 172, 172);
+    background-color:  #ecedff;
+    float: left;
+}
+iframe{
+margin-left: 37.5%;
 }
